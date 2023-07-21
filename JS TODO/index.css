@@ -1,0 +1,17 @@
+
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.render{
+    margin-top: 30px;
+}
+
+button{
+    margin-top: 30px;
+}

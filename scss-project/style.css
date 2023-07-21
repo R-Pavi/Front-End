@@ -1,0 +1,45 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.render {
+  margin-top: 30px;
+}
+
+body {
+  background-color: aqua;
+}
+
+div {
+  padding: 10px;
+}
+
+ul {
+  color: yellow;
+}
+
+button {
+  color: pink;
+}
+
+div ul {
+  padding: 5px;
+}
+div li {
+  padding: 4px;
+}
+div li span1 {
+  margin: 10px;
+}
+div li span2 {
+  padding: 5px;
+}
+div p {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

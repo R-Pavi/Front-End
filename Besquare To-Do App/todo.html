@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Todo App
+    </title>
+
+    <link rel = "stylesheet" href="todo.css">
+    <script src = "todo.js"></script>
+    <script src="https://kit.fontawesome.com/2b933a22ba.js" crossorigin="anonymous"></script>
+    
+      
+</head>
+
+
+<body>
+  
+    <div class = "background">
+
+      <div class = "content"> 
+
+        <div class = "left_sidebar">
+
+            <div class = "to_do"> 
+                <p><b>Todo</b></p>
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+        
+            <div class = search_task>
+                <form>
+                    <input type="search" id="searchInput" name="searchInput" placeholder="Search">
+                    <button id="search_input" hidden class = "search_input">Search</button>
+                </form>
+            </div>
+
+            <div class = "results">
+                <div class = "result_count">
+                    <//result count goes here>
+                </div>
+                <ul id = "task_search_list">
+                    <//search list goes here>
+                    <li class = "search_list">
+                        <i>type keyword and click search</i>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class = "task">
+    
+                <div> TASKS </div>
+
+                <div class = tasks_list>
+                    <ul id = "tasks_list">
+                        <li><i class="fa-sharp fa-solid fa-chevron-right"></i> Upcoming</li>
+                        <li><i class="fa-sharp fa-solid fa-list-check"></i> Today</li>
+                        <li><i class="fa-sharp fa-solid fa-calendar-days"></i> This Week</li>
+                     </ul> 
+                </div>           
+                
+            </div>
+
+        </div>
+
+        <div class = "center_bar">
+
+            <div class = "content_title">
+                <h2> Today </h2>
+                <input type = "date" id = "task_date" name = "task_date">
+            </div>
+
+            <div>
+                <form id = "to_dos">
+                    <input type="text" id="addInput" class= "addInput" name="addInput" placeholder="Add new todo">
+                    <button id="add_todo" class = "add_todo" hidden>Add</button>
+                </form>
+            </div>
+
+            <div class = "icons">
+                <i class="fa-sharp fa-solid fa-border-all" id = "icon1"></i>
+                <i class="fa-sharp fa-solid fa-list-check" id = "icon2"></i>
+            </div>
+
+
+            <div class = "to_lists">
+
+                <ul id = "list_of_todo">
+                    <!-- <//todo task will be listed here> -->
+                    <li class = "todo_list">
+                        <i>There are no Todos found!</i>
+                    </li>
+                </ul>
+
+            </div>
+        
+        </div>
+
+    
+
+            <div class = "right_sidebar">
+
+                <div  id = "edit_todo">
+                    <!-- <//edit will be here> -->
+                </div>
+
+            </div>
+
+      </div>
+
+    </div>
+
+</body>
+</html>

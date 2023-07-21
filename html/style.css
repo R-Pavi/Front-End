@@ -1,0 +1,108 @@
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.explain{
+    background-color: red;
+    width : 800px;
+    border: 15px solid pink;
+    padding: 20px;
+    margin: 20px 30px;;
+    
+
+}
+
+.character{
+    background-color: red;
+    width : 800px;
+    border: 15px solid yellow;
+    padding: 20px;
+    margin: 20px;
+    
+    
+
+}
+
+
+body{
+    background-color: aqua;
+}
+
+#choice{
+    background-color: yellow;
+    width : 800px;
+    border: 15px solid blue;
+    padding: 20px;
+    margin: 20px;    
+
+}
+
+p{
+    color:blue;
+
+}
+
+
+.special p{
+    color:orange;
+}
+
+a:link{
+    color:red;
+}
+
+a:hover{
+    color:blue;
+}
+
+a:visited{
+    color:green;
+}
+
+a:active{
+    color:maroon;
+}
+
+
+h1::first-letter{
+    color:yellow;
+}
+
+ul::first-line{
+    color:white;
+}
+
+
+div > p{
+    color:violet;
+}
+
+
+table,th, td{
+    border: 5px solid black;
+    
+}
+
+
+
+div.sticky{
+    position:sticky;
+    top:0px;
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    
+    
+}
+
+.sticky p{
+    color: green;
+}
+
+img{
+    position:static;
+}

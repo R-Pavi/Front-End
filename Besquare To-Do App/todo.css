@@ -1,0 +1,142 @@
+
+:root{
+    background-color : #bccbb7;
+    font-family: sans-serif;
+    padding: 90px 140px;
+}
+
+ul{
+    list-style: none;
+}
+
+#list_of_todo{
+    list-style: none;
+}
+
+/* .background{
+    padding: 90px 140px;
+} */
+
+.content{
+    display : flex;
+    background-color: white;
+    border-radius: 10px;   
+    padding: 20px 20px;
+    height : 80vh;
+}
+
+
+.left_sidebar{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding : 10px 10px;
+    overflow : auto;    
+    width: 300px;
+}
+
+
+.center_bar{
+    background-color: white;
+    border-radius: 10px;
+    padding : 10px 10px;
+    overflow : auto;
+    width: calc(100% - 440px - 300px);
+}
+
+
+.right_sidebar{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding : 10px 10px;
+    overflow : auto;
+    width: 440px;
+}
+
+.to_do{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size : 20px
+}
+#searchInput{
+    width : 280px;
+    height : 35px;
+    border-radius: 8px;
+    padding : 5px;
+}
+
+.result_count{
+    height : 20px;
+    justify-content: left;
+    align-items: left;
+}
+
+#task_search_list{
+    height : 140px;
+}
+
+.search_list{
+    display : flex;
+    line-height : 100px;
+}
+
+#tasks_list li{
+    font-size: 14px;
+    padding: 8px; 
+    text-align: left;
+    
+}
+
+#tasks_list{
+    padding : 4px;
+    
+}
+
+
+.content_title{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size : 20px
+    
+}
+
+#task_date{
+    border : none;
+    margin-right: 10px;
+}
+
+#addInput{
+    width: 500px;
+    height : 23px;
+    padding : 18px;
+    border-radius : 8px;
+    outline: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    padding : 10px;
+}
+
+#icon1{
+    padding : 10px;
+}
+
+#icon2{
+    padding : 10px;
+}
+
+#todo_lists{
+    overflow: auto;
+    height : 100px;
+
+}
+
+
+.todo_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
